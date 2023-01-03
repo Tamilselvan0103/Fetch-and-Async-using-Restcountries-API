@@ -1,0 +1,29 @@
+.img{
+    height: 200px;
+}
+.row{
+    gap: 2rem;
+    background-color: #b8c0d3;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around
+}
+.content{
+    background-color: #f6f7f9;
+    box-shadow: 5px 5px 12px #36425b,
+                -5px -5px 12px #36425b;
+}
+
+.card-title{
+    font-weight: bold;
+}
+.card:hover{
+    cursor: pointer;
+    background-color:#bdc5d6;
+   
+    
+}
+#title{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
