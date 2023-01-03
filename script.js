@@ -15,7 +15,7 @@ function showCountry(data1) {
   const cardDetails = data1.map((data1,index) => {
     return `
     <div class="card content col-lg-4 col-sm-12" style="width: 18rem;">
-    <h1 class = "card-title text-center" id ="title">${data1.name.common}</h1>
+    <h1 class = "text-center" id ="title">${data1.name.common}</h1>
     <img src="${data1.flags.png}" class="img-fluid img" alt="${data1.name.common}" >
     <div class="card-body">
     <p><span class = "card-title">Capital : </span>${data1.capital}</p>
